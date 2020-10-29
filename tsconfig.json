@@ -1,0 +1,12 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": false,
+        "module": "ES6",
+        "target": "ES6",
+    },
+    "include": [
+        "./Problems/*"
+    ]
+}
