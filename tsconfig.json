@@ -7,6 +7,7 @@
         "target": "ES6",
     },
     "include": [
-        "./Problems/*"
-    ]
+        "./Problems/*",
+        "./Helpers/*"
+    ],
 }

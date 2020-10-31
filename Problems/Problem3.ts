@@ -3,19 +3,7 @@
 
 // What is the largest prime factor of the number 600851475143?
 
-function isPrime(n: number): boolean
-{
-    const sqrtN = Math.floor(Math.sqrt(n));
-    for (let i = 2; i <= sqrtN; i++)
-    {
-        if (n % i === 0)
-        {
-            return false;
-        }
-    }
-
-    return true;
-}
+import { isPrime } from '../Helpers/prime.js'
 
 // Naive Method
 let maxPrimeFactor: number = 1;
