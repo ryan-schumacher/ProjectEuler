@@ -28,7 +28,6 @@ for (let i = 0; i < stringLen - 14; i++) {
     // Optimization: could use for loop here to grab N characters to make code more robust
     const product = parseInt(numAsString.charAt(i)) * parseInt(numAsString.charAt(i + 1)) * parseInt(numAsString.charAt(i + 2)) * parseInt(numAsString.charAt(i + 3)) * parseInt(numAsString.charAt(i + 4)) * parseInt(numAsString.charAt(i + 5)) * parseInt(numAsString.charAt(i + 6)) *
         parseInt(numAsString.charAt(i + 7)) * parseInt(numAsString.charAt(i + 8)) * parseInt(numAsString.charAt(i + 9)) * parseInt(numAsString.charAt(i + 10)) * parseInt(numAsString.charAt(i + 11)) * parseInt(numAsString.charAt(i + 12));
-    console.log(product);
     productMax = Math.max(productMax, product);
 }
 console.log(productMax);
